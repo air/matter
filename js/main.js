@@ -2,6 +2,8 @@ var three = THREE.Bootstrap({
   plugins: ['core']
 });
 
+Net.init();
+
 var cube = new THREE.Mesh(new THREE.CubeGeometry(1, 1, 1), new THREE.MeshBasicMaterial({ color: 0xff3333 }));
 
 three.scene.add(cube);
