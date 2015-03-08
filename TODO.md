@@ -1,0 +1,4 @@
+- https://github.com/liabru/matter-js/wiki/Rendering
+- http://brm.io/matter-js-docs/classes/Engine.html
+- verify we're using fast sockets
+- read from server in worker thread
